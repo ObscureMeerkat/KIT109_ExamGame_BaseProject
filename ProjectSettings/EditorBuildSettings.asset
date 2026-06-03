@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Title.unity
+    guid: 49d7a1b25bd9789479f8738d8c301ab4
+  - enabled: 1
+    path: Assets/Level01.unity
+    guid: 046fc19641ba12943a94c7239c59580c
+  - enabled: 1
+    path: Assets/Level02_Black Hole.unity
+    guid: 2bcf1f1fbfc7033428e6d9e94a027f19
+  - enabled: 1
+    path: Assets/Level03_Homing Missiles.unity
+    guid: f600e08bae3cd55438e27d335811dbe4
+  - enabled: 1
+    path: Assets/Level04_Shield.unity
+    guid: 92682ac3d5e358149b19a064359fdf72
+  - enabled: 1
+    path: Assets/Level05_Moving Bouncy Barriers.unity
+    guid: 956aa849497b92844b9cb2d259eaa78b
+  - enabled: 1
+    path: Assets/Level06_Cluster Bomb.unity
+    guid: b85a4764cbe1b5941a624656d644c860
+  - enabled: 1
+    path: Assets/Level07_Laser Web.unity
+    guid: d81e06140e7e18b449fdd6f1e439d71b
+  - enabled: 1
+    path: Assets/Level08_Minions.unity
+    guid: c1f0403648e472746a49dc061bf4341f
+  - enabled: 1
+    path: Assets/Level09_Custom1.unity
+    guid: 49d2b4c0bf379b64b8136932a67e4f77
+  - enabled: 1
+    path: Assets/Level10_Custom2.unity
+    guid: eef28855b6d35cd40848b9725909c06c
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
