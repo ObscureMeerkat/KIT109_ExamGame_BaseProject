@@ -1,24 +1,22 @@
 using UnityEngine;
 
-// Persistent audio manager. It auto-spawns once at startup from a prefab in a
-// Resources folder, survives every scene load, and a singleton guard ensures only
-// one ever exists — so music plays continuously and never restarts between levels.
-// Other scripts call GameAudio.Instance?.PlayShoot() etc.
+// Persistent audio manager. Auto-spawns once from Resources, survives scene loads,
+// and a singleton guard keeps only one so music plays continuously across levels.
+// Music and SFX MUST use two separate AudioSources.
 public class GameAudio : MonoBehaviour
 {
     public static GameAudio Instance { get; private set; }
 
     [Header("Music")]
     [SerializeField] AudioClip music;
-    [SerializeField] AudioSource musicSource;        // Loop on, Play On Awake off
+    [SerializeField] AudioSource musicSource;        // dedicated music source (Loop on)
 
     [Header("SFX")]
-    [SerializeField] AudioSource sfxSource;          // Loop off
+    [SerializeField] AudioSource sfxSource;          // SEPARATE source from music (Loop off)
     [SerializeField] AudioClip shootClip;
     [SerializeField] AudioClip explosionClip;
     [SerializeField] AudioClip tankDestroyedClip;
 
-    // Spawn the manager before the first scene loads, regardless of entry scene.
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void Bootstrap()
     {
@@ -29,7 +27,6 @@ public class GameAudio : MonoBehaviour
 
     void Awake()
     {
-        // Singleton: keep the first instance, destroy any later duplicate.
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -37,10 +34,7 @@ public class GameAudio : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
-    }
 
-    void Start()
-    {
         if (musicSource != null && music != null)
         {
             musicSource.clip = music;
@@ -58,13 +52,11 @@ public class GameAudio : MonoBehaviour
         if (sfxSource != null && clip != null) sfxSource.PlayOneShot(clip);
     }
 
-    // Wired to the title screen's music toggle later.
+    // Mute is independent of play state, so firing SFX can't disturb it.
     public void SetMusicEnabled(bool on)
     {
-        if (musicSource == null) return;
-        if (on && !musicSource.isPlaying) musicSource.Play();
-        else if (!on) musicSource.Pause();
+        if (musicSource != null) musicSource.mute = !on;
     }
 
-    public bool IsMusicOn => musicSource != null && musicSource.isPlaying;
+    public bool IsMusicOn => musicSource != null && !musicSource.mute;
 }
