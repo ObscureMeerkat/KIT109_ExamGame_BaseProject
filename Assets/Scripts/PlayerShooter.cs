@@ -2,11 +2,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 // Handles aiming, charging, and launching projectiles for the player tank.
-// Attach this to the PlayerTank GameObject.
+// Attach this to the PlayerTank. If a Turret transform is assigned, the turret
+// pivots to face the cursor and shots fire from the FirePoint at its tip; the
+// tank body stays stationary.
 public class PlayerShooter : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] Transform firePoint;
+    [SerializeField] Transform turret;              // the pivoting barrel (optional)
+    [SerializeField] float turretAngleOffset = 0f;  // 0 if the barrel sprite points along +X (right)
+    [SerializeField] Transform firePoint;           // muzzle at the barrel tip
     [SerializeField] GameObject projectilePrefab;
     [SerializeField] LineRenderer aimLine;
     [SerializeField] Camera aimCamera;
@@ -30,9 +34,27 @@ public class PlayerShooter : MonoBehaviour
     {
         if (Mouse.current == null) return;
 
+        // Locked during start/end text: no aiming, charging, or firing.
+        if (LevelManager.Instance != null && LevelManager.Instance.InputLocked)
+        {
+            isCharging = false;
+            if (aimLine != null) aimLine.enabled = false;
+            return;
+        }
+
         Vector2 mouseScreen = Mouse.current.position.ReadValue();
         Vector3 mouseWorld = aimCamera.ScreenToWorldPoint(new Vector3(mouseScreen.x, mouseScreen.y, 0f));
-        Vector2 aimDir = ((Vector2)mouseWorld - (Vector2)firePoint.position).normalized;
+
+        // Aim from the turret's pivot if we have one, otherwise from the fire point.
+        Vector2 pivot = turret != null ? (Vector2)turret.position : (Vector2)firePoint.position;
+        Vector2 aimDir = ((Vector2)mouseWorld - pivot).normalized;
+
+        // Rotate the turret to face the cursor (the FirePoint at its tip follows).
+        if (turret != null)
+        {
+            float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
+            turret.rotation = Quaternion.Euler(0f, 0f, angle + turretAngleOffset);
+        }
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {

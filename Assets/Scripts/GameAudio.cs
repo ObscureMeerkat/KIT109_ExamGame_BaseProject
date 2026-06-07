@@ -37,7 +37,10 @@ public class GameAudio : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
 
+    void Start()
+    {
         if (musicSource != null && music != null)
         {
             musicSource.clip = music;

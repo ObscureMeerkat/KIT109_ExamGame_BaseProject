@@ -189,6 +189,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
+      propertyPath: m_text
+      value: Level 8 - Destory the minions to destroy the enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5242638003412605733, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_Pivot.x
       value: 0
