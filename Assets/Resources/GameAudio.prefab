@@ -47,7 +47,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 4cc33fb83313e4b8ba8841db52744666, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.502
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -242,7 +242,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameAudio
   music: {fileID: 8300000, guid: 4cc33fb83313e4b8ba8841db52744666, type: 3}
   musicSource: {fileID: 3186366422179256697}
+  musicVolume: 0.15
   sfxSource: {fileID: 3186366422179256697}
+  sfxVolume: 0.25
   shootClip: {fileID: 8300000, guid: 69a8fdd68f7d64ef4afe76222b1374b5, type: 3}
+  shootVolume: 1
   explosionClip: {fileID: 8300000, guid: bbc3ee1ed97aa4173bd98b767f671a07, type: 3}
+  explosionVolume: 0.5
   tankDestroyedClip: {fileID: 8300000, guid: 0d2d0cf8a9ddf488c875e7fbda0c641a, type: 3}
+  tankDestroyedVolume: 0.15

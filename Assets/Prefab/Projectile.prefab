@@ -284,7 +284,7 @@ MonoBehaviour:
   explosionRadius: 1
   damageMask:
     serializedVersion: 2
-    m_Bits: 264
+    m_Bits: 256
   damage: 1
   explodeOnImpact: 1
   maxLifetime: 6

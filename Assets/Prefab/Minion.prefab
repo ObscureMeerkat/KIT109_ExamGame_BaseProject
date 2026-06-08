@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7295387882372585345}
   - component: {fileID: 6350001162172854474}
   - component: {fileID: 6659801655405754241}
-  - component: {fileID: 3196920477251251293}
   m_Layer: 8
   m_Name: Minion
   m_TagString: Minion
@@ -153,16 +152,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   hitPoints: 1
---- !u!114 &3196920477251251293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5855366764492535472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ddea492b126c4cbe972f0a8519de85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MinionGuard
-  minionTag: Minion
+  isPlayer: 0
