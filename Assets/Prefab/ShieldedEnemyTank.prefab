@@ -139,6 +139,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5096286736317670696, guid: 7aea064a4ecc8463e978c6208c3af7e2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096286736317670696, guid: 7aea064a4ecc8463e978c6208c3af7e2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.120978534
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096286736317670696, guid: 7aea064a4ecc8463e978c6208c3af7e2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096286736317670696, guid: 7aea064a4ecc8463e978c6208c3af7e2, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6291625154555584417, guid: 7aea064a4ecc8463e978c6208c3af7e2, type: 3}
       propertyPath: m_Name
       value: ShieldedEnemyTank

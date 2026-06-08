@@ -72,7 +72,7 @@ public class LevelManager : MonoBehaviour
         if (ammoRemaining <= 0 && Projectile.ActiveCount == 0)
         {
             lossTimer += Time.deltaTime;
-            if (lossTimer >= lossGrace) Lose();
+            if (lossTimer >= lossGrace) Lose("Out of ammo!\nPress R to retry or Q for menu.");
         }
         else
         {
@@ -85,6 +85,13 @@ public class LevelManager : MonoBehaviour
         ammoRemaining = Mathf.Max(0, ammoRemaining - 1);
         shotsFired++;
         if (hud != null) hud.SetAmmo(ammoRemaining);
+    }
+
+    // Called by the player's Health on death (mirror level, or a too-close misfire).
+    public void OnPlayerDied()
+    {
+        if (state == State.GameOver) return;
+        Lose("You were destroyed!\nPress R to retry or Q for menu.");
     }
 
     void Win()
@@ -113,9 +120,9 @@ public class LevelManager : MonoBehaviour
         if (next < SceneManager.sceneCountInBuildSettings) SceneManager.LoadScene(next);
     }
 
-    void Lose()
+    void Lose(string message)
     {
         state = State.GameOver;
-        if (hud != null) hud.ShowResult("Out of ammo!\nPress R to retry or Q for menu.");
+        if (hud != null) hud.ShowResult(message);
     }
 }

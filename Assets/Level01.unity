@@ -271,11 +271,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: Level 1 - Destroy the enemy in 10 shots
+      value: 'Level 1 - Default
+
+        Destroy the enemy in 10 shots or less'
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
-      value: 18.8
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontStyle

@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// Handles aiming, charging, and launching projectiles for the player tank.
-// Attach this to the PlayerTank. If a Turret transform is assigned, the turret
-// pivots to face the cursor and shots fire from the FirePoint at its tip; the
-// tank body stays stationary.
+// Handles aiming, charging, and launching projectiles. Attach to a tank with a
+// pivoting Turret child and a FirePoint at the barrel tip.
+//
+// The same script drives the mirrored enemy: clone the PlayerTank, untick
+// usesAmmo, and point its projectilePrefab at an enemy variant. It then tracks
+// the same cursor and fires on the same click without touching the player's ammo.
 public class PlayerShooter : MonoBehaviour
 {
     [Header("References")]
@@ -14,6 +16,10 @@ public class PlayerShooter : MonoBehaviour
     [SerializeField] GameObject projectilePrefab;
     [SerializeField] LineRenderer aimLine;
     [SerializeField] Camera aimCamera;
+
+    [Header("Role")]
+    [Tooltip("Player tank consumes ammo and is gated by it. Untick on a mirrored enemy clone so it fires freely.")]
+    [SerializeField] bool usesAmmo = true;
 
     [Header("Shot tuning")]
     [SerializeField] float minLaunchSpeed = 4f;
@@ -34,7 +40,6 @@ public class PlayerShooter : MonoBehaviour
     {
         if (Mouse.current == null) return;
 
-        // Locked during start/end text: no aiming, charging, or firing.
         if (LevelManager.Instance != null && LevelManager.Instance.InputLocked)
         {
             isCharging = false;
@@ -45,11 +50,9 @@ public class PlayerShooter : MonoBehaviour
         Vector2 mouseScreen = Mouse.current.position.ReadValue();
         Vector3 mouseWorld = aimCamera.ScreenToWorldPoint(new Vector3(mouseScreen.x, mouseScreen.y, 0f));
 
-        // Aim from the turret's pivot if we have one, otherwise from the fire point.
         Vector2 pivot = turret != null ? (Vector2)turret.position : (Vector2)firePoint.position;
         Vector2 aimDir = ((Vector2)mouseWorld - pivot).normalized;
 
-        // Rotate the turret to face the cursor (the FirePoint at its tip follows).
         if (turret != null)
         {
             float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
@@ -92,7 +95,8 @@ public class PlayerShooter : MonoBehaviour
 
     void Launch(Vector2 aimDir)
     {
-        if (LevelManager.Instance != null && !LevelManager.Instance.CanShoot) return;
+        // Only the ammo-using player is gated by remaining ammo.
+        if (usesAmmo && LevelManager.Instance != null && !LevelManager.Instance.CanShoot) return;
 
         float speed = Mathf.Lerp(minLaunchSpeed, maxLaunchSpeed, ChargeFraction());
         GameObject shot = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
@@ -101,6 +105,6 @@ public class PlayerShooter : MonoBehaviour
 
         GameAudio.Instance?.PlayShoot();
 
-        if (LevelManager.Instance != null) LevelManager.Instance.ConsumeAmmo();
+        if (usesAmmo && LevelManager.Instance != null) LevelManager.Instance.ConsumeAmmo();
     }
 }

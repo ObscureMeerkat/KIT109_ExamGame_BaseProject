@@ -316,11 +316,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: Level 7 - Shots stick and link with lasers
+      value: 'Level 7 - Laser Web
+
+        Shots stick and link with lasers. Trap
+        the enemy!'
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
-      value: 19.25
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontStyle
