@@ -62,6 +62,7 @@ GameObject:
   - component: {fileID: 5243717917416540875}
   - component: {fileID: -520758556753821917}
   - component: {fileID: -6339027091902144883}
+  - component: {fileID: 5243717917416541000}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -69,6 +70,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5243717917416541000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243717917416540874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e1064a98fd56402983717092cfce272, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::SkyboxSetup
+  skyboxMaterial: {fileID: 2100000, guid: 617d9be015db68348a623b01ea51a8c5, type: 2}
 --- !u!4 &5243717917416540877
 Transform:
   m_ObjectHideFlags: 0

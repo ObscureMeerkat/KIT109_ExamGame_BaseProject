@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 3a124ebad081845fb8ab55735330afaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2684615747261754503
+    second: left_explode_blue-Sheet_0
+  - first:
+      213: 8714819363115456146
+    second: left_explode_blue-Sheet_1
+  - first:
+      213: -4451621393716240636
+    second: left_explode_blue-Sheet_2
+  - first:
+      213: -8869350349847630113
+    second: left_explode_blue-Sheet_3
+  - first:
+      213: -3007329845804319458
+    second: left_explode_blue-Sheet_4
+  - first:
+      213: 6480818499378711023
+    second: left_explode_blue-Sheet_5
+  - first:
+      213: 7914793567607950089
+    second: left_explode_blue-Sheet_6
+  - first:
+      213: -4876426781304795171
+    second: left_explode_blue-Sheet_7
+  - first:
+      213: -7560197043755657862
+    second: left_explode_blue-Sheet_8
+  - first:
+      213: -4552607635495209975
+    second: left_explode_blue-Sheet_9
+  - first:
+      213: -7418694598888490713
+    second: left_explode_blue-Sheet_10
+  - first:
+      213: -8279654172360979640
+    second: left_explode_blue-Sheet_11
+  - first:
+      213: -6144091356751283821
+    second: left_explode_blue-Sheet_12
+  - first:
+      213: 767025823865831964
+    second: left_explode_blue-Sheet_13
+  - first:
+      213: 6808618369303781297
+    second: left_explode_blue-Sheet_14
+  - first:
+      213: 7231487982917276817
+    second: left_explode_blue-Sheet_15
+  - first:
+      213: 8077225587191058241
+    second: left_explode_blue-Sheet_16
+  - first:
+      213: 5719429709435485636
+    second: left_explode_blue-Sheet_17
+  - first:
+      213: -342322153465950080
+    second: left_explode_blue-Sheet_18
+  - first:
+      213: 6830917106066071791
+    second: left_explode_blue-Sheet_19
+  - first:
+      213: -7893195884977031809
+    second: left_explode_blue-Sheet_20
+  - first:
+      213: -3214280307873469830
+    second: left_explode_blue-Sheet_21
+  - first:
+      213: -6585564252791027401
+    second: left_explode_blue-Sheet_22
+  - first:
+      213: 7168047613948096689
+    second: left_explode_blue-Sheet_23
+  - first:
+      213: -2311238928029060218
+    second: left_explode_blue-Sheet_24
+  - first:
+      213: -823739973756005204
+    second: left_explode_blue-Sheet_25
+  - first:
+      213: 774309673030895041
+    second: left_explode_blue-Sheet_26
+  - first:
+      213: 7557276602234433554
+    second: left_explode_blue-Sheet_27
+  - first:
+      213: 2707164653545045726
+    second: left_explode_blue-Sheet_28
+  - first:
+      213: 5275097348093917640
+    second: left_explode_blue-Sheet_29
+  - first:
+      213: -1666825420461055474
+    second: left_explode_blue-Sheet_30
+  - first:
+      213: -6430056093371547843
+    second: left_explode_blue-Sheet_31
+  - first:
+      213: -8821074581937963354
+    second: left_explode_blue-Sheet_32
+  - first:
+      213: -8793664027680113411
+    second: left_explode_blue-Sheet_33
+  - first:
+      213: -7083358162221575269
+    second: left_explode_blue-Sheet_34
+  - first:
+      213: 418617426395586039
+    second: left_explode_blue-Sheet_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 143
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ce4f56ccba14520800000000000000
+      internalID: 2684615747261754503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 143
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2965134a90241f870800000000000000
+      internalID: 8714819363115456146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 143
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f93099de9a832c0800000000000000
+      internalID: -4451621393716240636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 169
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde68d049dcb9e480800000000000000
+      internalID: -8869350349847630113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 171
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d37625071d346d0800000000000000
+      internalID: -3007329845804319458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 167
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe98f3d961e70f950800000000000000
+      internalID: 6480818499378711023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 164
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b81dbb0def6dd60800000000000000
+      internalID: 7914793567607950089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 143
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf4027cda3735cb0800000000000000
+      internalID: -4876426781304795171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 108
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a755cf628d8c41790800000000000000
+      internalID: -7560197043755657862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904b39ce973e1d0c0800000000000000
+      internalID: -4552607635495209975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 114
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729742871908b0990800000000000000
+      internalID: -7418694598888490713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 107
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bc751d562c81d80800000000000000
+      internalID: -8279654172360979640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 108
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399ba4db67dcbbaa0800000000000000
+      internalID: -6144091356751283821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 118
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1203154ce505aa00800000000000000
+      internalID: 767025823865831964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 118
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf1d8155521d7e50800000000000000
+      internalID: 6808618369303781297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 108
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1945a43a1086b5460800000000000000
+      internalID: 7231487982917276817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 118
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f083760e1181070800000000000000
+      internalID: 8077225587191058241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 118
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdb7b4940f7f5f40800000000000000
+      internalID: 5719429709435485636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 79
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805aeba0d3df3bf0800000000000000
+      internalID: -342322153465950080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0253d8aea4cce50800000000000000
+      internalID: 6830917106066071791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f757e5d992cb57290800000000000000
+      internalID: -7893195884977031809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 75
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a2ba807159463d0800000000000000
+      internalID: -3214280307873469830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73941e234306b94a0800000000000000
+      internalID: -6585564252791027401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b07672b3550a7360800000000000000
+      internalID: 7168047613948096689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 79
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683f5cfb074dcefd0800000000000000
+      internalID: -2311238928029060218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 79
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4dbf4bbdc7194f0800000000000000
+      internalID: -823739973756005204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5c72f8b86eeba00800000000000000
+      internalID: 774309673030895041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 54
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210fd819707d0e860800000000000000
+      internalID: 7557276602234433554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edebb03c8e7c19520800000000000000
+      internalID: 2707164653545045726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c93eb4e619e43940800000000000000
+      internalID: 5275097348093917640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 54
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02e3de7c1f3ed8e0800000000000000
+      internalID: -1666825420461055474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fb0cc0d0ad3c6a0800000000000000
+      internalID: -6430056093371547843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae3c5e576f359580800000000000000
+      internalID: -8821074581937963354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcfefb5821a6f580800000000000000
+      internalID: -8793664027680113411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 15
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b935bebd74bd2bd90800000000000000
+      internalID: -7083358162221575269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_explode_blue-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdd815d45a3fc500800000000000000
+      internalID: 418617426395586039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      left_explode_blue-Sheet_0: 2684615747261754503
+      left_explode_blue-Sheet_1: 8714819363115456146
+      left_explode_blue-Sheet_10: -7418694598888490713
+      left_explode_blue-Sheet_11: -8279654172360979640
+      left_explode_blue-Sheet_12: -6144091356751283821
+      left_explode_blue-Sheet_13: 767025823865831964
+      left_explode_blue-Sheet_14: 6808618369303781297
+      left_explode_blue-Sheet_15: 7231487982917276817
+      left_explode_blue-Sheet_16: 8077225587191058241
+      left_explode_blue-Sheet_17: 5719429709435485636
+      left_explode_blue-Sheet_18: -342322153465950080
+      left_explode_blue-Sheet_19: 6830917106066071791
+      left_explode_blue-Sheet_2: -4451621393716240636
+      left_explode_blue-Sheet_20: -7893195884977031809
+      left_explode_blue-Sheet_21: -3214280307873469830
+      left_explode_blue-Sheet_22: -6585564252791027401
+      left_explode_blue-Sheet_23: 7168047613948096689
+      left_explode_blue-Sheet_24: -2311238928029060218
+      left_explode_blue-Sheet_25: -823739973756005204
+      left_explode_blue-Sheet_26: 774309673030895041
+      left_explode_blue-Sheet_27: 7557276602234433554
+      left_explode_blue-Sheet_28: 2707164653545045726
+      left_explode_blue-Sheet_29: 5275097348093917640
+      left_explode_blue-Sheet_3: -8869350349847630113
+      left_explode_blue-Sheet_30: -1666825420461055474
+      left_explode_blue-Sheet_31: -6430056093371547843
+      left_explode_blue-Sheet_32: -8821074581937963354
+      left_explode_blue-Sheet_33: -8793664027680113411
+      left_explode_blue-Sheet_34: -7083358162221575269
+      left_explode_blue-Sheet_35: 418617426395586039
+      left_explode_blue-Sheet_4: -3007329845804319458
+      left_explode_blue-Sheet_5: 6480818499378711023
+      left_explode_blue-Sheet_6: 7914793567607950089
+      left_explode_blue-Sheet_7: -4876426781304795171
+      left_explode_blue-Sheet_8: -7560197043755657862
+      left_explode_blue-Sheet_9: -4552607635495209975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

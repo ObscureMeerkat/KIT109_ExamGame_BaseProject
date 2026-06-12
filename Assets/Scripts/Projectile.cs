@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -95,11 +96,14 @@ public class Projectile : MonoBehaviour
 
         GameAudio.Instance?.PlayExplosion();
 
+        // A tank can have several colliders (body, shield ring) that all share one
+        // Health, so damage each entity once rather than once per collider.
         Collider2D[] hits = Physics2D.OverlapCircleAll(point, explosionRadius * blastScale, damageMask);
+        var damaged = new HashSet<Health>();
         foreach (Collider2D hit in hits)
         {
             Health health = hit.GetComponentInParent<Health>();
-            if (health != null) health.TakeDamage(damage);
+            if (health != null && damaged.Add(health)) health.TakeDamage(damage);
         }
 
         Exploded?.Invoke(point, lastNormal);
