@@ -133,9 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: 'Level 1 - Default
-
-        Destroy the enemy in 10 shots or less'
+      value: '<size=55%>Level 1</size><br>Default<br><br><size=60%>Destroy the enemy in 10 shots or less</size>'
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
@@ -493,7 +491,7 @@ MonoBehaviour:
   levelNumber: 1
   levelTitle: Default
   levelDescription: Destroy the enemy tank.
-  introDuration: 2
+  introDuration: 4
   endDuration: 3
   lossGrace: 0.5
   startingAmmo: 10

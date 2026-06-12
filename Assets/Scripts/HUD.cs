@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections;
@@ -33,6 +35,11 @@ public class HUD : MonoBehaviour
 
     void Awake()
     {
+        // The level scenes don't each carry an EventSystem; without one, no UI
+        // button works (e.g. Return to Menu on the end-of-game screen).
+        if (FindAnyObjectByType<EventSystem>() == null)
+            new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));
+
         if (resultText != null) resultText.gameObject.SetActive(false);
         if (windText != null) windText.gameObject.SetActive(false);
         SetAlpha(startPanel, 0f);
@@ -91,7 +98,16 @@ public class HUD : MonoBehaviour
         if (windText != null) windText.gameObject.SetActive(false);
     }
 
-    void SetAlpha(CanvasGroup g, float a) { if (g != null) g.alpha = a; }
+    // The panels are full-screen CanvasGroups hidden by alpha only, so raycast
+    // blocking must follow visibility or an invisible panel eats button clicks.
+    void SetAlpha(CanvasGroup g, float a)
+    {
+        if (g == null) return;
+        g.alpha = a;
+        bool visible = a > 0.5f;
+        g.interactable = visible;
+        g.blocksRaycasts = visible;
+    }
 
     void Animate(CanvasGroup g, bool show)
     {
@@ -100,6 +116,8 @@ public class HUD : MonoBehaviour
 
     IEnumerator Fade(CanvasGroup g, bool show)
     {
+        g.interactable = show;
+        g.blocksRaycasts = show;
         float from = g.alpha;
         float to = show ? 1f : 0f;
         float startScale = show ? 0.85f : 1f;

@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] int levelNumber = 1;
     [SerializeField] string levelTitle = "Default";
     [TextArea][SerializeField] string levelDescription = "Destroy the enemy tank.";
-    [SerializeField] float introDuration = 2f;
+    [SerializeField] float introDuration = 4f;
 
     [Header("End of level")]
     [SerializeField] float endDuration = 3f;

@@ -208,9 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: 'Level 8 - Minons
-
-        Destory the minions to destroy the enemy'
+      value: '<size=55%>Level 8</size><br>Minions<br><br><size=60%>Destroy the minions to destroy the enemy</size>'
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
@@ -475,6 +473,10 @@ PrefabInstance:
     - target: {fileID: 8345581168339904285, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
       propertyPath: minLaunchSpeed
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345581168339904285, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
+      propertyPath: maxLaunchSpeed
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

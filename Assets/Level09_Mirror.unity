@@ -312,10 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: 'Level 9 - Mirror
-
-        The enemy knows your moves. Outsmart it to
-        destroy it.'
+      value: '<size=55%>Level 9</size><br>Mirror<br><br><size=60%>The enemy knows your moves. Outsmart it to destroy it.</size>'
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize

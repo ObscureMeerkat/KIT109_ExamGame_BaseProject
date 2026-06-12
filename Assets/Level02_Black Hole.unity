@@ -247,9 +247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: 'Level 2 - Black Hole
-
-        A Black Hole bends your shots'
+      value: '<size=55%>Level 2</size><br>Black Hole<br><br><size=60%>A Black Hole bends your shots</size>'
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize

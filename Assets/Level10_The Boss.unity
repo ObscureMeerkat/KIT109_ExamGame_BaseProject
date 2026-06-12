@@ -324,11 +324,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6260402388053885854, guid: 41058a2b24d8a45d09492524c025ef83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6260402388053885854, guid: 41058a2b24d8a45d09492524c025ef83, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6260402388053885854, guid: 41058a2b24d8a45d09492524c025ef83, type: 3}
       propertyPath: m_LocalPosition.z
@@ -655,7 +655,7 @@ Transform:
   m_GameObject: {fileID: 1020696306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 0.75, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -740,10 +740,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: 'Level 10 - The Boss
-
-        Navigate the hazards, defeat the minions,
-        get through the shield and beat the boss.'
+      value: <size=55%>Level 10</size><br>The Boss<br><br><size=60%>Navigate the
+        hazards, defeat the minions, get through the shield and beat the boss.</size>
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
@@ -1048,11 +1046,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0444441
+      value: -1.3786774
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4999981
+      value: 0.0000019073486
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.z
