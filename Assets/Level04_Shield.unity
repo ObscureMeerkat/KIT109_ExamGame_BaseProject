@@ -186,7 +186,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3514222856472831875, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 3514222856472831875, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -247,7 +247,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: '<size=55%>Level 4</size><br>Shield<br><br><size=60%>Destroy the shield to destroy the enemy</size>'
+      value: <size=55%>Level 4</size><br>Shield<br><br><size=60%>Destroy the shield
+        to destroy the enemy</size>
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
@@ -352,7 +353,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 69040979484370832, guid: aaf3883763efe49f7b835f6e08a3cd93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 69040979484370832, guid: aaf3883763efe49f7b835f6e08a3cd93, type: 3}
       propertyPath: m_LocalPosition.y

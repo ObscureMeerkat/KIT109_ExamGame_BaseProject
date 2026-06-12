@@ -391,7 +391,7 @@ MonoBehaviour:
   minLaunchSpeed: 4
   maxLaunchSpeed: 16
   maxChargeTime: 1.5
-  maxAimLineLength: 4
+  maxAimLineLength: 2
 --- !u!114 &7559138922192956072
 MonoBehaviour:
   m_ObjectHideFlags: 0

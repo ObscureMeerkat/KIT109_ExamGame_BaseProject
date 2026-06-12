@@ -499,7 +499,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 69040979484370832, guid: aaf3883763efe49f7b835f6e08a3cd93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 3.05
       objectReference: {fileID: 0}
     - target: {fileID: 69040979484370832, guid: aaf3883763efe49f7b835f6e08a3cd93, type: 3}
       propertyPath: m_LocalPosition.y
@@ -567,7 +567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.8
+      value: -1.1499996
       objectReference: {fileID: 0}
     - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -640,7 +640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.538467
+      value: -9.249998
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -708,7 +708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.55
+      value: 0.6000004
       objectReference: {fileID: 0}
     - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -977,7 +977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.94
+      value: -3.0099998
       objectReference: {fileID: 0}
     - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
       propertyPath: m_LocalPosition.y
