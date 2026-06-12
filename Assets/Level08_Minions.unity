@@ -208,7 +208,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_text
-      value: '<size=55%>Level 8</size><br>Minions<br><br><size=60%>Destroy the minions to destroy the enemy</size>'
+      value: <size=55%>Level 8</size><br>Minions<br><br><size=60%>Destroy the minions
+        to destroy the enemy</size>
       objectReference: {fileID: 0}
     - target: {fileID: 3334189738831196622, guid: cb804126239d045fda784835b6ef3124, type: 3}
       propertyPath: m_fontSize
@@ -471,12 +472,12 @@ PrefabInstance:
       value: PlayerTank
       objectReference: {fileID: 0}
     - target: {fileID: 8345581168339904285, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
-      propertyPath: minLaunchSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345581168339904285, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
       propertyPath: maxLaunchSpeed
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345581168339904285, guid: b0b5c8bd6c66943d0983fca2f4bbf10a, type: 3}
+      propertyPath: minLaunchSpeed
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -643,7 +644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5243717917416540877, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -689,71 +690,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 575774553}
   m_SourcePrefab: {fileID: 100100000, guid: bcc62e69a7dd91045bc9f496089d4e6f, type: 3}
---- !u!1001 &1033009043
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8153799724814163430, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9215965597421928599, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
-      propertyPath: m_Name
-      value: Minion
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ce3f1f4afa4a34d7bb7c1319a6b6e86b, type: 3}
 --- !u!1001 &1043790393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1098,7 +1034,6 @@ SceneRoots:
   - {fileID: 596597774}
   - {fileID: 1533260270}
   - {fileID: 714110205}
-  - {fileID: 1033009043}
   - {fileID: 807492993}
   - {fileID: 1043790393}
   - {fileID: 1751120205}
